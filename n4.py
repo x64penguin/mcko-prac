@@ -15,4 +15,4 @@ for date, *_ in data:
 
 # Выводим года в отсортированном порядке
 for y, cnt in sorted(years.items(), key=lambda x: int(x[0])):
-    print(f"В {y} году зеркало было использовано {cnt} раз.")
+    print(f"В {y} году зеркало было использовано {cnt}.")
